@@ -1,0 +1,102 @@
+body{
+	font:100% Verdana;
+	font-size:24px;
+	font-style:normal;
+	background:#ddd;
+}
+h2{
+	font-size:40px;
+}
+h3, h4{
+	padding:0px;
+	margin:0px;
+}
+a{
+	text-decoration:none;
+}
+p{
+	display:block;
+	padding:30px;
+	border:1px solid #ddd;
+	text-align:center;
+}
+#content{
+	width:700px;
+	height:auto;
+	background:#fefefe;
+	border-top:10px solid #222;
+	border-bottom:50px solid #222;
+	padding:30px;
+	margin:100px auto;
+	box-shadow:0px 0px 10px #666;
+	-o-box-shadow:0px 0px 10px #666;
+	-ms-box-shadow:0px 0px 10px #666;
+	-moz-box-shadow:0px 0px 10px #666;
+	-webkit-box-shadow:0px 0px 10px #666;
+}
+#wrapp{
+	width:1000px;
+	height:auto;
+	background:#fefefe;
+	border-bottom:50px solid #222;
+	padding:30px;
+	margin:100px auto;
+	box-shadow:0px 0px 10px #666;
+	-o-box-shadow:0px 0px 10px #666;
+	-ms-box-shadow:0px 0px 10px #666;
+	-moz-box-shadow:0px 0px 10px #666;
+	-webkit-box-shadow:0px 0px 10px #666;
+}
+.logout{
+	position: relative;
+	top:0px;
+	right:0px;
+	font-size:14px;
+	background:#333;
+	display:block;
+	float:right;
+	padding:10px;
+	color:#fff;
+	text-decoration:none;
+	z-index:19;
+}
+.logout:hover{
+	text-decoration:underline;
+}
+#berita{
+	width:100%;
+	font-size:12px;
+}
+#berita td{
+	border:1px solid #ddd;
+	padding:5px;
+	text-align:center;
+}
+#berita button{
+	font-size:9px;
+	padding:3px;
+	cursor:pointer;
+}
+#input{
+	width:100%;
+	height:auto;
+	margin-top:40px;
+}
+fieldset{
+	border:none;
+	margin:5px;
+	padding:0px;
+}
+.judul{
+	width:300px;
+	padding:10px 20px;
+	font-size:14px;
+}
+.berita{
+	min-width:400px;
+	max-width:400px;
+	height:100px;
+	padding:10px 20px;
+	font:100% Verdana, Geneva, sans-serif;
+	font-size:14px;
+}

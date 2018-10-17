@@ -1,0 +1,150 @@
+/* css-nya */
+
+body{
+	font : 12px arial;
+	color : black;
+	margin : 0px auto;
+	padding : 0px;
+	background-color : #fff;
+}
+form, p, span{
+	margin : 0px;
+	padding : 0px;
+}
+fieldset{
+	border:none;
+}
+input{
+	font : 12px arial;
+}
+a{
+	color :#fff;
+	text-decoration : none;
+}
+a:hover{
+	text-decoration : underline;
+}
+#login{
+	margin:20px auto;
+	width:300px;
+	padding:20px;
+	text-align:right;
+	border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-o-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+}
+#wrapper{
+	padding:25px;
+	width:430px;
+	height:450px;
+	margin:30px auto;
+	background : #cff;
+	border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-o-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-ms-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+}
+#menu{
+	background:#222;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	padding :12px 27px 12px 27px;
+	font-size:18px;
+	margin:0px auto;
+}
+#content{
+	padding : 12px 27px 12px 27px;
+}
+#chatline{
+	float:left;
+	width:270px;
+	height:315px;
+	border:1px solid rgba(0,0,0,0.2);
+	display:block;
+	margin:10px 0px;
+	padding:0px;
+}
+#chatbox{
+	margin:0px auto 10px auto;
+	padding : 10px;
+	background :rgba(0,0,0,0.1);
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	height : 250px;
+	width : 250px;
+	float: left;
+	overflow : auto;
+}
+#input{
+	width:270px;
+	margin:0px;
+	display:block;
+}
+#message-input{
+	width: 210px;
+	height: 30px;
+	margin-left:2px;
+	display:inline;
+}
+#message-submit{
+	width: 50px;
+	height: 30px;
+	display:inline;
+	float:right;
+	top:0px;
+	right:0px;
+}
+
+.welcome{
+	float : left;
+}
+.logout{
+	float: right;
+	margin-left : 260px;
+	margin-top:-20px;
+}
+#online{
+	float: right;
+	display:block;
+	position: relative;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:capitalize;
+	top:10px;
+	right:0px;
+	padding:10px;
+	background: rgba(0,0,0,0.1);
+	width: 120px;
+	height: 295px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+#online h3{
+	display:block;
+	padding:5px;
+	background:#222;
+	color:#fff;
+	margin:-10px -10px 10px -10px;
+}
+.message-line{
+	margin : 0 0 2px 0;
+	color : #666;
+	font-style:italic;
+}
+.message-line b{
+	color:#333;
+	margin-right:10px;
+	font-size:14px;
+	font-style:normal;
+}

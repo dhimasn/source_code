@@ -1,0 +1,156 @@
+body{
+	background:#fff;
+	color:#333;
+	font:100% Verdana, Geneva, sans-serif;
+}
+a{
+	color:#999;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 2px 1px #000;
+}
+a:hover{
+	color:#fff;
+}
+#error {
+	display:block;
+	float:right;
+	position: relative;
+	margin-top:-30px;
+	right:10px;
+	color: #FF0000;
+	}
+.content{
+	background:#fff;
+	border-bottom:40px solid #333;
+	width:750px;
+	height:auto;
+	overflow:auto;
+	margin:20px auto;
+	box-shadow:0px 0px 10px #666;
+	padding:0px 20px 20px 20px;
+}
+.content h2{
+	height:100px;
+	display:block;
+	color:#ccc;
+	font-size:50px;
+	text-shadow:3px 3px 1px #000;
+	margin:0px auto 10px auto;
+	padding-top:10px;
+	padding-left:20px;
+	font-weight: normal;
+}
+.content p{
+	background:#303030;
+	margin:10px -20px;
+	padding:15px 20px;
+	color:#303030;
+	text-decoration:none;
+}
+
+.form{
+	width:325px;
+	padding:20px;
+	font-size:12px;
+	background:#eee;
+	display:inline-block;
+}
+.form fieldset{
+	border:none;
+	background:none;
+	margin:0px;
+	padding:1px;
+}
+.input{
+	width:300px;
+	padding:10px;
+	font-size:14px;
+}
+
+#isi{
+	width:100%;
+	margin:10px;
+	font-size:12px;
+}
+.isi{
+	width:200px;
+	height:260px;
+	left:0px;
+	float:left;
+	position:relative;
+	display:inline-block;
+	margin:5px;
+	padding:5px;
+	background:#fff;
+	border:solid 1px #ddd;
+}
+.isi b{
+	display:block;
+	margin:-5px -5px;
+	padding:10px;
+	color:#fff;
+	background:#222;
+}
+.isi span{
+	display:block;
+	margin:10px;
+	padding:5px;
+}
+.isi img{
+	padding:5px;
+	margin:auto -6px;
+	border:1px solid #ddd;
+	width:100%;
+	height:120px;
+}
+.isi i{
+	font-size:10px;
+	display:block;
+	float:right;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+/*----------------------------------- komentar --------------------------------*/
+.form2{
+	width:335px;
+	height:460px;
+	padding:0px 20px;
+	font-size:12px;
+	background:#eee;
+	display:block;
+	float: left;
+	overflow: auto;
+	margin:0px 10px 0px 0px;
+}
+.form2 h3{
+	background:#333;
+	color:#eee;
+	display:block;
+	padding:10px 20px;
+	margin:0px -20px;
+}
+.box_comment{
+	border-bottom:1px solid #ddd;
+	display:block;
+	padding:20px;
+	margin:0px -20px ;
+}
+.box_comment a{
+	text-decoration:none;
+	color:#222;
+	text-shadow:none;
+	display:block;
+	padding:5px 0px;
+}
+.box_comment a:hover{
+	text-decoration:underline;
+}
+.box_comment p{
+	background:none;
+	color:#666;
+	margin:10px 0px;
+	padding:0px;
+}
+

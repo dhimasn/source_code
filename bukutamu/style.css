@@ -1,0 +1,110 @@
+body{
+	background:#fff;
+	color:#333;
+	font:100% Verdana, Geneva, sans-serif;
+}
+a{
+	color:#999;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 2px 1px #000;
+}
+a:hover{
+	color:#fff;
+}
+#error {
+	display:block;
+	float:right;
+	position: relative;
+	margin-top:-30px;
+	right:10px;
+	color: #FF0000;
+	}
+.content{
+	background:#fff;
+	border-bottom:40px solid #333;
+	width:750px;
+	height:auto;
+	margin:20px auto;
+	box-shadow:0px 0px 10px #666;
+	padding:0px 20px 20px 20px;
+}
+.content h2{
+	height:120px;
+	display:block;
+	color:#ccc;
+	font-size:60px;
+	text-shadow:3px 3px 1px #000;
+	margin:0px auto 20px auto;
+	padding-left:20px;
+	font-weight: normal;
+}
+.content p{
+	background:#303030;
+	margin:10px -20px;
+	padding:15px 20px;
+	color:#303030;
+	text-decoration:none;
+}
+
+.form{
+	width:325px;
+	padding:20px;
+	font-size:12px;
+	background:#eee;
+	display:inline-block;
+}
+.form fieldset{
+	border:none;
+	background:none;
+	margin:0px;
+	padding:1px;
+}
+.input{
+	width:300px;
+	padding:10px;
+	font-size:14px;
+}
+
+/*----------------------------------- komentar --------------------------------*/
+.form2{
+	width:335px;
+	height:460px;
+	padding:0px 20px;
+	font-size:12px;
+	background:#eee;
+	display:block;
+	float: left;
+	overflow: auto;
+	margin:0px 10px 0px 0px;
+}
+.form2 h3{
+	background:#333;
+	color:#eee;
+	display:block;
+	padding:10px 20px;
+	margin:0px -20px;
+}
+.box_comment{
+	border-bottom:1px solid #ddd;
+	display:block;
+	padding:20px;
+	margin:0px -20px ;
+}
+.box_comment a{
+	text-decoration:none;
+	color:#222;
+	text-shadow:none;
+	display:block;
+	padding:5px 0px;
+}
+.box_comment a:hover{
+	text-decoration:underline;
+}
+.box_comment p{
+	background:none;
+	color:#666;
+	margin:10px 0px;
+	padding:0px;
+}
+

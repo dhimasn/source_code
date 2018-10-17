@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registrasi Form</title>
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="jquery.validate.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#registrasiForm").validate({
+		messages: {
+			email: {
+				required: "E-mail harus diisi",
+				email: "Masukkan E-mail yang valid"
+			}
+		},
+		errorPlacement: function(error, element) {
+			error.appendTo(element.parent("td"));
+		}
+	});
+})
+</script>
+</head>
+<body>
+<center>
+<div id="center" style="margin:20px auto; border:1px solid #ccc; width:500px;">
+<h4>SELAMAT DATANG PESERTA <br> YOUTH LEADERSHIP TRAINING 2016 <br> SILAHKAN MENGISI FORM DI BAWAH INI</h4>
+<form align="center" id="registrasiForm" method="post" action="proses.php">
+	<table>
+		<tr>
+			<td colspan="2">
+				<input name="nama" class="required" title="harus diisi" type="text" placeholder="Nama" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="nama1" class="required" title="harus diisi" type="text" placeholder="Nama Panggilan" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="nim" class="required" title="harus diisi" type="text" placeholder="Angkatan" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="email" id="email" class="required email" type="email" placeholder="Email" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="tgl_lahir" class="required" title="harus diisi" type="text" placeholder="Tanggal Lahir" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="no_telp" class="required" title="harus diisi" type="text" placeholder="Telepon" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea name="alamat" class="required" title="harus diisi" placeholder="Alamat Semarang"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea name="alamat_asal" class="required" title="harus diisi" placeholder="Alamat Asal"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="tokoh_idola" class="required" title="harus diisi" type="text" placeholder="Tokoh Idola" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea name="Alasan_Mengidolakan" class="required" title="harus diisi" placeholder="Alasan Mengidolakan"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="Penyakit_kronis" class="required" title="harus diisi" type="text" placeholder="Penyakit kronis" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input name="Alergi" class="required" title="harus diisi" type="text" placeholder="Alergi" />
+			</td>
+		</tr>
+				<tr>
+			<td colspan="2">
+				<input name="Golongan_darah" class="required" title="harus diisi" type="text" placeholder="Golongan darah" />
+			</td>
+		</tr>
+				<tr>
+			<td colspan="2">
+				<input name="Motto_Hidup" class="required" title="harus diisi" type="text" placeholder="Motto Hidup" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Riwayat Pendidikan Formal<br>
+				<textarea name="Formal" class="required" title="harus diisi" placeholder="No | jenjang | Nama Instasi | Alamat | Periode"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Riwayat Pendidikan Non Formal<br>
+				<textarea name="Non_Formal" class="required" title="harus diisi" placeholder="No | jenjang | Nama Instasi | Alamat | Periode"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Riwayat Organisasi<br>
+				<textarea name="Riwayat_Organisasi" class="required" title="harus diisi" placeholder="No | jenjang | Nama Organisasi | jabatan | Periode"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Riwayat Pelatihan<br>
+				<textarea name="Riwayat_Pelatihan" class="required" title="harus diisi" placeholder="No | Nama Pelatihan| Pelaksana | Periode"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Buku, Tabloid, Majalah yang paling mempengaruhi dalam hidup/pola pikir<br>
+				<textarea name="Buku" class="required" title="harus diisi" placeholder="No | Buku | tabloid | majalah "/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Keahlian yang dimiliki<br>
+				<textarea name="keahlian" class="required" title="harus diisi" placeholder="No | Keahlian dimiliki | Mahir/Lumayan/kurang"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Planning Hidup<br>
+				<textarea name="Planning_hidup" class="required" title="harus diisi" placeholder="No | Periode | Target Pencapaian"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">2.	Apakah anda mengenal KAMMI ? Jika ya, Informasi dari mana ?
+				1.	Bagaimana basic keluarga anda ? (ex : NU, Muhammadiyah, Tarbiyah)<br>
+				<textarea name="pertanyaan1" class="required" title="harus diisi" placeholder="jawab"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				2.	Apakah anda mengenal KAMMI ? Jika ya, Informasi dari mana ?<br>
+				<textarea name="pertanyaan2" class="required" title="harus diisi" placeholder="jawab"/></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input name="jk" value="L" class="required" title="harus diisi" type="radio" />Laki-laki
+				<input name="jk" value="P" type="radio">Perempuan
+			</td>
+		</tr>
+        <tr>
+			<td>
+				<select name="jurusan" class="required" title="harus dipilih" />
+					<option value="">-- Pilih Departemen --</option>
+					<option value="Teknik Informatika">Teknik Informatika</option>
+					<option value="Biologi">Biologi</option>
+					<option value="Matematika">Matematika</option>
+					<option value="Kimia">Kimia</option>
+					<option value="Fisika">Fisika</option>
+					<option value="Insel">Insel</option>
+					<option value="Statistika">Statistika</option>
+				</select>
+			</td>
+        </td>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Reset" />
+			</td>
+		</tr>
+	</table>
+</form>
+</div>
+</center>
+</body>
+</html>

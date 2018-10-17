@@ -1,0 +1,35 @@
+<?php
+include_once "koneksi.php" ;
+$nama=$_POST['nama'];
+$nama1=$_POST['nama1'];
+$nim=$_POST['nim'];
+$email=$_POST['email'];
+$tgl_lahir=$_POST['tgl_lahir'];
+$no_telp=$_POST['no_telp'];
+$alamat=$_POST['alamat'];
+$alamat_asal=$_POST['alamat_asal'];
+$tokoh_idola=$_POST['tokoh_idola'];
+$Alasan_Mengidolakan=$_POST['Alasan_Mengidolakan'];
+$Penyakit_kronis=$_POST['Penyakit_kronis'];
+$Golongan_darah=$_POST['Alergi'];
+$Motto_Hidup=$_POST['Alergi'];
+$Formal=$_POST['Alergi'];
+$Non_Formal=$_POST['Alergi'];
+$Riwayat_Organisasi=$_POST['Alergi'];
+$Riwayat_Pelatihan=$_POST['Alergi'];
+$Buku=$_POST['Alergi'];
+$keahlian=$_POST['Alergi'];
+$Alergi=$_POST['Alergi'];
+$Planning_hidup=$_POST['Alergi'];
+$pertanyaan1=$_POST['Alergi'];
+$pertanyaan2=$_POST['Alergi'];
+$gender=$_POST['jk'];
+$jurusan=$_POST['jurusan'];
+$query=mysqli_query($koneksi ,"INSERT INTO `mahasiswa` (`email` ,`nama` ,`nim` ,`alamat` ,`tgl_lahir` ,`telepon` ,`gender`,`progdi`) VALUES ('$email', '$nama', '$nim', '$alamat', '$tgl_lahir', '$telepon', '$gender','$jurusan')")or die ("mysql error: Data Sudah ada");
+	if($query){
+		header("location:home.html");
+	}
+	else{	
+		header("location:index.html");
+	}
+?>

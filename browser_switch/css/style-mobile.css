@@ -1,0 +1,159 @@
+body{
+	background:#fff;
+	color:#333;
+	font:100% "Tw Cen MT Condensed Extra Bold", Verdana, Geneva, sans-serif;
+	font-size:20px;
+}
+a{
+	color:#f95;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+h1, h2, h3, h4{
+	margin:5px;
+	padding:0px;
+	color:#0cf;
+}
+input{
+	width:300px;
+	padding:10px;
+}
+textarea{
+	font-family:Verdana, Geneva, sans-serif;
+	width:400px;
+	height:100px;
+}
+span{
+	display:block;
+	margin:5px;
+}
+button{
+	padding:5px 10px;
+	font-size:16px;
+	font-weight:bold;
+	margin:10px auto;
+}
+/*------------------------------ Header Tampilan Web ----------------------------------*/
+header{
+	color:#0cf;
+	background:#0cf;
+	width:100%;
+	height:150px;
+	margin:0px 0px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:2;
+	box-shadow:0px 0px 2px #333;
+	-o-box-shadow:0px 0px 2px #333;
+	-ms-box-shadow:0px 0px 2px #333;
+	-moz-box-shadow:0px 0px 2px #333;
+	-webkit-box-shadow:0px 0px 2px #333;
+}
+header h1{
+	font-family: Brush Script MT;
+	color:#fff;
+	font-size:70px;
+	text-align:center;
+	display:block;
+	text-shadow:1px 1px 1px #333;
+}
+header h4{
+	font-family: Brush Script MT;
+	color:#fff;
+	font-size:24px;
+	display:block;
+	text-align:center;
+	margin:-20px 0px;
+	text-shadow:1px 1px 1px #333;
+}
+header p {
+	display:block;
+	text-align:right;
+	font-size:24px;
+	padding:10px;
+	margin:10px 0px;
+	text-align:center;
+}
+header p a{	
+	text-shadow:1px 1px 1px #333;
+}
+
+
+/*------------------------------ Konten Tampilan Web ----------------------------------*/
+#content{
+	background:#eee;
+	margin:151px auto 0px auto;
+	position: absolute;
+	width:100%;
+	height: auto;
+	min-height:200px;
+	overflow: auto;
+	top:0px;
+	left:0px;
+}
+
+#box{
+	display:block;
+	width:70%;
+	height:auto;
+	overflow:auto;
+	padding:20px;
+	margin:0px auto 150px auto;
+}
+#box h2{
+	text-align:center;
+	display:block;
+	padding:5px;
+	border-bottom:1px solid #0cf;
+	border-top:1px solid #0cf;
+	margin-top:30px;
+}
+#box p{	
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align:justify;
+}
+
+.tumb{
+	width:70%;
+	height: auto;
+	margin:10px auto;
+}
+.tumb a{
+	width:100%;
+	height:50px;
+	border:5px solid #fff;
+	margin:10px auto;
+	background:#09f;
+	display:inline-block;
+	overflow:hidden;
+	box-shadow:0px 0px 5px #333;
+}
+.tumb a img{
+	width:100%;
+	height:auto;
+}
+
+/*------------------------------ Footer Tampilan Web ----------------------------------*/
+footer{
+	width:100%;
+	height:120px;
+	background:#333;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+footer p{
+	display:block;
+	margin:10px 0px;
+	text-align:center;
+}
+footer h4{
+	text-align:right;
+	display:block;
+	margin:0px 0px;
+	text-align:center;
+	color:#444;
+}
